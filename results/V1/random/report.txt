@@ -1,0 +1,16 @@
+V1 [random] + RR-interval features (pre, post, local mean, ratio)
+accuracy 0.9847 | macro-F1 0.9123 | macro-Se 0.8730 | macro-PPV 0.9632
+
+class       n      Se      Sp     PPV      F1
+N       18117  0.9972  0.9329  0.9862  0.9917
+SVEB      556  0.8022  0.9997  0.9845  0.8840
+VEB      1447  0.9461  0.9971  0.9587  0.9523
+FB        160  0.6438  0.9994  0.8879  0.7464
+Q        1608  0.9757  0.9999  0.9987  0.9871
+
+confusion (rows=true, cols=pred): N SVEB VEB FB Q
+N       18067      6     38      5      1
+SVEB      100    446     10      0      0
+VEB        68      1   1369      8      1
+FB         47      0     10    103      0
+Q          38      0      1      0   1569

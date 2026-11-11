@@ -1,0 +1,101 @@
+[{"stream_name":"stderr","time":9.356756449,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":9.356834773,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":10.812206727,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.812242386,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.8122487,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.812252972,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":11.739086522000001,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.739122792,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.739128754,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.739133112,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":18.349754784,"data":"Writing src/config.py\n"}
+,{"stream_name":"stdout","time":18.366911683,"data":"Writing src/dataset.py\n"}
+,{"stream_name":"stdout","time":18.384870387,"data":"Writing src/preprocess.py\n"}
+,{"stream_name":"stdout","time":18.401090737,"data":"Writing src/feature_extraction.py\n"}
+,{"stream_name":"stdout","time":18.416465062,"data":"Writing src/features.py\n"}
+,{"stream_name":"stdout","time":18.430460969,"data":"Writing src/models.py\n"}
+,{"stream_name":"stdout","time":18.44624389,"data":"Writing src/metrics.py\n"}
+,{"stream_name":"stdout","time":18.462699337,"data":"Writing src/run.py\n"}
+,{"stream_name":"stdout","time":37.094380613,"data":"2026-11-11 14:12:27,312 src.dataset: Loaded 109438 beats from 48 records\r\n"}
+,{"stream_name":"stdout","time":82.442249701,"data":"2026-11-11 14:13:12,657 src.feature_extraction: Extracted feature matrix of shape (109438, 190).\r\n"}
+,{"stream_name":"stdout","time":240.525348279,"data":"V1 [random] + RR-interval features (pre, post, local mean, ratio)\r\n"}
+,{"stream_name":"stdout","time":240.525387004,"data":"accuracy 0.9847 | macro-F1 0.9123 | macro-Se 0.8730 | macro-PPV 0.9632\r\n"}
+,{"stream_name":"stdout","time":240.525393276,"data":"\r\n"}
+,{"stream_name":"stdout","time":240.525398088,"data":"class       n      Se      Sp     PPV      F1\r\n"}
+,{"stream_name":"stdout","time":240.52540296,"data":"N       18117  0.9972  0.9329  0.9862  0.9917\r\n"}
+,{"stream_name":"stdout","time":240.525408063,"data":"SVEB      556  0.8022  0.9997  0.9845  0.8840\r\n"}
+,{"stream_name":"stdout","time":240.525412874,"data":"VEB      1447  0.9461  0.9971  0.9587  0.9523\r\n"}
+,{"stream_name":"stdout","time":240.525418203,"data":"FB        160  0.6438  0.9994  0.8879  0.7464\r\n"}
+,{"stream_name":"stdout","time":240.525423654,"data":"Q        1608  0.9757  0.9999  0.9987  0.9871\r\n"}
+,{"stream_name":"stdout","time":240.52542919,"data":"\r\n"}
+,{"stream_name":"stdout","time":240.52543482,"data":"confusion (rows=true, cols=pred): N SVEB VEB FB Q\r\n"}
+,{"stream_name":"stdout","time":240.525440415,"data":"N       18067      6     38      5      1\r\n"}
+,{"stream_name":"stdout","time":240.525456939,"data":"SVEB      100    446     10      0      0\r\n"}
+,{"stream_name":"stdout","time":240.525461948,"data":"VEB        68      1   1369      8      1\r\n"}
+,{"stream_name":"stdout","time":240.52546564,"data":"FB         47      0     10    103      0\r\n"}
+,{"stream_name":"stdout","time":240.525469446,"data":"Q          38      0      1      0   1569\r\n"}
+,{"stream_name":"stdout","time":240.525473517,"data":"\r\n"}
+,{"stream_name":"stdout","time":327.265425059,"data":"V1 [interpatient] + RR-interval features (pre, post, local mean, ratio)\r\n"}
+,{"stream_name":"stdout","time":327.26547033,"data":"accuracy 0.9444 | macro-F1 0.3835 | macro-Se 0.3862 | macro-PPV 0.4067\r\n"}
+,{"stream_name":"stdout","time":327.265491565,"data":"\r\n"}
+,{"stream_name":"stdout","time":327.265497811,"data":"class       n      Se      Sp     PPV      F1\r\n"}
+,{"stream_name":"stdout","time":327.265503653,"data":"N       44235  0.9930  0.5747  0.9499  0.9709\r\n"}
+,{"stream_name":"stdout","time":327.265509619,"data":"SVEB     1837  0.0163  0.9970  0.1724  0.0298\r\n"}
+,{"stream_name":"stdout","time":327.26551533,"data":"VEB      3220  0.9217  0.9938  0.9113  0.9165\r\n"}
+,{"stream_name":"stdout","time":327.265520465,"data":"FB        388  0.0000  0.9998  0.0000  0.0000\r\n"}
+,{"stream_name":"stdout","time":327.265525456,"data":"Q           7  0.0000  1.0000  0.0000  0.0000\r\n"}
+,{"stream_name":"stdout","time":327.26553033,"data":"\r\n"}
+,{"stream_name":"stdout","time":327.265535169,"data":"confusion (rows=true, cols=pred): N SVEB VEB FB Q\r\n"}
+,{"stream_name":"stdout","time":327.26554021,"data":"N       43925    144    154     12      0\r\n"}
+,{"stream_name":"stdout","time":327.265545075,"data":"SVEB     1745     30     62      0      0\r\n"}
+,{"stream_name":"stdout","time":327.26554989,"data":"VEB       252      0   2968      0      0\r\n"}
+,{"stream_name":"stdout","time":327.265554633,"data":"FB        316      0     72      0      0\r\n"}
+,{"stream_name":"stdout","time":327.26555968,"data":"Q           6      0      1      0      0\r\n"}
+,{"stream_name":"stdout","time":327.265568703,"data":"\r\n"}
+,{"stream_name":"stdout","time":327.265572012,"data":"version,split,accuracy,macro_f1,sveb_se,sveb_f1,veb_f1,fb_se,fb_f1\r\n"}
+,{"stream_name":"stdout","time":327.265576179,"data":"V1,random,0.9847,0.9123,0.8022,0.8840,0.9523,0.6438,0.7464\r\n"}
+,{"stream_name":"stdout","time":327.26559321,"data":"V1,interpatient,0.9444,0.3835,0.0163,0.0298,0.9165,0.0000,0.0000\r\n"}
+,{"stream_name":"stdout","time":327.265599267,"data":"\r\n"}
+,{"stream_name":"stdout","time":327.817001646,"data":"V1 [interpatient] + RR-interval features (pre, post, local mean, ratio)\n"}
+,{"stream_name":"stdout","time":327.817034409,"data":"accuracy 0.9444 | macro-F1 0.3835 | macro-Se 0.3862 | macro-PPV 0.4067\n"}
+,{"stream_name":"stdout","time":327.817040643,"data":"\n"}
+,{"stream_name":"stdout","time":327.817046231,"data":"class       n      Se      Sp     PPV      F1\n"}
+,{"stream_name":"stdout","time":327.817052422,"data":"N       44235  0.9930  0.5747  0.9499  0.9709\n"}
+,{"stream_name":"stdout","time":327.817058503,"data":"SVEB     1837  0.0163  0.9970  0.1724  0.0298\n"}
+,{"stream_name":"stdout","time":327.817064739,"data":"VEB      3220  0.9217  0.9938  0.9113  0.9165\n"}
+,{"stream_name":"stdout","time":327.817069891,"data":"FB        388  0.0000  0.9998  0.0000  0.0000\n"}
+,{"stream_name":"stdout","time":327.81707466,"data":"Q           7  0.0000  1.0000  0.0000  0.0000\n"}
+,{"stream_name":"stdout","time":327.817079585,"data":"\n"}
+,{"stream_name":"stdout","time":327.817100355,"data":"confusion (rows=true, cols=pred): N SVEB VEB FB Q\n"}
+,{"stream_name":"stdout","time":327.817104602,"data":"N       43925    144    154     12      0\n"}
+,{"stream_name":"stdout","time":327.817108677,"data":"SVEB     1745     30     62      0      0\n"}
+,{"stream_name":"stdout","time":327.817112536,"data":"VEB       252      0   2968      0      0\n"}
+,{"stream_name":"stdout","time":327.817116089,"data":"FB        316      0     72      0      0\n"}
+,{"stream_name":"stdout","time":327.817125374,"data":"Q           6      0      1      0      0\n"}
+,{"stream_name":"stdout","time":327.817128484,"data":"\n"}
+,{"stream_name":"stdout","time":327.817132051,"data":"V1 [random] + RR-interval features (pre, post, local mean, ratio)\n"}
+,{"stream_name":"stdout","time":327.817152982,"data":"accuracy 0.9847 | macro-F1 0.9123 | macro-Se 0.8730 | macro-PPV 0.9632\n"}
+,{"stream_name":"stdout","time":327.817157446,"data":"\n"}
+,{"stream_name":"stdout","time":327.81716151,"data":"class       n      Se      Sp     PPV      F1\n"}
+,{"stream_name":"stdout","time":327.817166077,"data":"N       18117  0.9972  0.9329  0.9862  0.9917\n"}
+,{"stream_name":"stdout","time":327.817170334,"data":"SVEB      556  0.8022  0.9997  0.9845  0.8840\n"}
+,{"stream_name":"stdout","time":327.817174082,"data":"VEB      1447  0.9461  0.9971  0.9587  0.9523\n"}
+,{"stream_name":"stdout","time":327.817178363,"data":"FB        160  0.6438  0.9994  0.8879  0.7464\n"}
+,{"stream_name":"stdout","time":327.817182851,"data":"Q        1608  0.9757  0.9999  0.9987  0.9871\n"}
+,{"stream_name":"stdout","time":327.817187394,"data":"\n"}
+,{"stream_name":"stdout","time":327.817191186,"data":"confusion (rows=true, cols=pred): N SVEB VEB FB Q\n"}
+,{"stream_name":"stdout","time":327.81719512,"data":"N       18067      6     38      5      1\n"}
+,{"stream_name":"stdout","time":327.81719905,"data":"SVEB      100    446     10      0      0\n"}
+,{"stream_name":"stdout","time":327.817202927,"data":"VEB        68      1   1369      8      1\n"}
+,{"stream_name":"stdout","time":327.817206856,"data":"FB         47      0     10    103      0\n"}
+,{"stream_name":"stdout","time":327.81721069499997,"data":"Q          38      0      1      0   1569\n"}
+,{"stream_name":"stdout","time":327.817214483,"data":"\n"}
+,{"stream_name":"stderr","time":331.518398157,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":331.5184408,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":331.763048118,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":331.763084043,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":332.7550757,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":332.858508439,"data":"[NbConvertApp] Writing 45292 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":336.23300409,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":336.982658722,"data":"[NbConvertApp] Writing 411331 bytes to __results__.html\n"}
+]

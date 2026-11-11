@@ -1,0 +1,95 @@
+{
+  "accuracy": 0.9756944444444444,
+  "macro_f1": 0.8759779224033386,
+  "macro_sensitivity": 0.822462098132192,
+  "macro_ppv": 0.9548126837521924,
+  "per_class": {
+    "N": {
+      "support": 18117,
+      "sensitivity": 0.9952530772202903,
+      "specificity": 0.8928666136303368,
+      "ppv": 0.9780851640900461,
+      "f1": 0.9865944407966732
+    },
+    "SVEB": {
+      "support": 556,
+      "sensitivity": 0.6996402877697842,
+      "specificity": 0.9994843427714232,
+      "ppv": 0.9725,
+      "f1": 0.8138075313807531
+    },
+    "VEB": {
+      "support": 1447,
+      "sensitivity": 0.9053213545266068,
+      "specificity": 0.9947654224353016,
+      "ppv": 0.9244883556810163,
+      "f1": 0.9148044692737431
+    },
+    "FB": {
+      "support": 160,
+      "sensitivity": 0.55625,
+      "specificity": 0.999539764359352,
+      "ppv": 0.898989898989899,
+      "f1": 0.6872586872586871
+    },
+    "Q": {
+      "support": 1608,
+      "sensitivity": 0.9558457711442786,
+      "specificity": 1.0,
+      "ppv": 1.0,
+      "f1": 0.9774244833068362
+    }
+  },
+  "confusion": [
+    [
+      18031,
+      11,
+      71,
+      4,
+      0
+    ],
+    [
+      162,
+      389,
+      5,
+      0,
+      0
+    ],
+    [
+      131,
+      0,
+      1310,
+      6,
+      0
+    ],
+    [
+      51,
+      0,
+      20,
+      89,
+      0
+    ],
+    [
+      60,
+      0,
+      11,
+      0,
+      1537
+    ]
+  ],
+  "version": "V0",
+  "split": "random",
+  "n_features": 190,
+  "n_train": 152465,
+  "n_test": 21888,
+  "train_seconds": 124.6,
+  "config": {
+    "based_on": null,
+    "features": [
+      "base"
+    ],
+    "model": "rf",
+    "balance": "upsample",
+    "change": "baseline: paper features + RF + up-sampling to 20k"
+  }
+}

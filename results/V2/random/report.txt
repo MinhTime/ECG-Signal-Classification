@@ -1,0 +1,16 @@
+V2 [random] + time-domain morphology (beat waveform pooled to 72 points)
+accuracy 0.9901 | macro-F1 0.9310 | macro-Se 0.8973 | macro-PPV 0.9730
+
+class       n      Se      Sp     PPV      F1
+N       18117  0.9992  0.9541  0.9905  0.9948
+SVEB      556  0.8525  0.9999  0.9937  0.9177
+VEB      1447  0.9668  0.9986  0.9797  0.9732
+FB        160  0.6813  0.9994  0.9008  0.7758
+Q        1608  0.9869  1.0000  1.0000  0.9934
+
+confusion (rows=true, cols=pred): N SVEB VEB FB Q
+N       18102      1     10      4      0
+SVEB       76    474      6      0      0
+VEB        38      2   1399      8      0
+FB         39      0     12    109      0
+Q          20      0      1      0   1587

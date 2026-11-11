@@ -1,0 +1,16 @@
+V5 [random] + patient-normalised RR (RR / record mean RR)
+accuracy 0.9939 | macro-F1 0.9531 | macro-Se 0.9419 | macro-PPV 0.9659
+
+class       n      Se      Sp     PPV      F1
+N       18117  0.9978  0.9822  0.9963  0.9971
+SVEB      556  0.9442  0.9987  0.9511  0.9477
+VEB      1447  0.9848  0.9987  0.9821  0.9834
+FB        160  0.7875  0.9994  0.9000  0.8400
+Q        1608  0.9950  1.0000  1.0000  0.9975
+
+confusion (rows=true, cols=pred): N SVEB VEB FB Q
+N       18078     21     12      6      0
+SVEB       28    525      3      0      0
+VEB         8      6   1425      8      0
+FB         24      0     10    126      0
+Q           7      0      1      0   1600
