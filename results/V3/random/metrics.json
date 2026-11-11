@@ -1,0 +1,97 @@
+{
+  "accuracy": 0.9935581140350878,
+  "macro_f1": 0.9485396794482253,
+  "macro_sensitivity": 0.932038994111392,
+  "macro_ppv": 0.9681497032703319,
+  "per_class": {
+    "N": {
+      "support": 18117,
+      "sensitivity": 0.998233703151736,
+      "specificity": 0.9798461946433307,
+      "ppv": 0.9958152084136336,
+      "f1": 0.9970229891394232
+    },
+    "SVEB": {
+      "support": 556,
+      "sensitivity": 0.9334532374100719,
+      "specificity": 0.9988749296831052,
+      "ppv": 0.9558011049723757,
+      "f1": 0.9444949954504095
+    },
+    "VEB": {
+      "support": 1447,
+      "sensitivity": 0.9841050449205252,
+      "specificity": 0.9985812827161098,
+      "ppv": 0.9800412938747419,
+      "f1": 0.9820689655172413
+    },
+    "FB": {
+      "support": 160,
+      "sensitivity": 0.75,
+      "specificity": 0.9994477172312224,
+      "ppv": 0.9090909090909091,
+      "f1": 0.821917808219178
+    },
+    "Q": {
+      "support": 1608,
+      "sensitivity": 0.9944029850746269,
+      "specificity": 1.0,
+      "ppv": 1.0,
+      "f1": 0.9971936389148738
+    }
+  },
+  "confusion": [
+    [
+      18085,
+      19,
+      8,
+      5,
+      0
+    ],
+    [
+      33,
+      519,
+      4,
+      0,
+      0
+    ],
+    [
+      11,
+      5,
+      1424,
+      7,
+      0
+    ],
+    [
+      24,
+      0,
+      16,
+      120,
+      0
+    ],
+    [
+      8,
+      0,
+      1,
+      0,
+      1599
+    ]
+  ],
+  "version": "V3",
+  "split": "random",
+  "n_features": 266,
+  "n_train": 152465,
+  "n_test": 21888,
+  "train_seconds": 301.7,
+  "config": {
+    "based_on": "V2",
+    "features": [
+      "base",
+      "rr",
+      "morph"
+    ],
+    "model": "lgbm",
+    "balance": "upsample",
+    "change": "classifier RF -> LightGBM (gradient boosting)"
+  }
+}

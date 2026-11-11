@@ -1,0 +1,16 @@
+V4 [interpatient] balancing: random up-sampling -> SMOTE
+accuracy 0.9070 | macro-F1 0.4627 | macro-Se 0.4929 | macro-PPV 0.4643
+
+class       n      Se      Sp     PPV      F1
+N       44235  0.9299  0.7590  0.9690  0.9491
+SVEB     1837  0.4279  0.9911  0.6474  0.5152
+VEB      3220  0.9596  0.9662  0.6631  0.7843
+FB        388  0.1469  0.9735  0.0418  0.0650
+Q           7  0.0000  1.0000  0.0000  0.0000
+
+confusion (rows=true, cols=pred): N SVEB VEB FB Q
+N       41134    411   1438   1252      0
+SVEB      945    786    106      0      0
+VEB        58     16   3090     56      0
+FB        307      1     23     57      0
+Q           4      0      3      0      0

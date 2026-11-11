@@ -1,0 +1,95 @@
+{
+  "accuracy": 0.9087688932718819,
+  "macro_f1": 0.3374740376600709,
+  "macro_sensitivity": 0.3612762240075167,
+  "macro_ppv": 0.3905097188323481,
+  "per_class": {
+    "N": {
+      "support": 44235,
+      "sensitivity": 0.9591726008816548,
+      "specificity": 0.539435069699193,
+      "ppv": 0.9441255006675567,
+      "f1": 0.9515895710681244
+    },
+    "SVEB": {
+      "support": 1837,
+      "sensitivity": 0.002177463255307567,
+      "specificity": 0.999853709508882,
+      "ppv": 0.36363636363636365,
+      "f1": 0.00432900432900433
+    },
+    "VEB": {
+      "support": 3220,
+      "sensitivity": 0.8450310559006211,
+      "specificity": 0.9677405470548992,
+      "ppv": 0.6447867298578199,
+      "f1": 0.7314516129032259
+    },
+    "FB": {
+      "support": 388,
+      "sensitivity": 0.0,
+      "specificity": 0.9895332562526623,
+      "ppv": 0.0,
+      "f1": 0.0
+    },
+    "Q": {
+      "support": 7,
+      "sensitivity": 0.0,
+      "specificity": 1.0,
+      "ppv": 0.0,
+      "f1": 0.0
+    }
+  },
+  "confusion": [
+    [
+      42429,
+      6,
+      1287,
+      513,
+      0
+    ],
+    [
+      1797,
+      4,
+      36,
+      0,
+      0
+    ],
+    [
+      495,
+      1,
+      2721,
+      3,
+      0
+    ],
+    [
+      216,
+      0,
+      172,
+      0,
+      0
+    ],
+    [
+      3,
+      0,
+      4,
+      0,
+      0
+    ]
+  ],
+  "version": "V0",
+  "split": "interpatient",
+  "n_features": 190,
+  "n_train": 125841,
+  "n_test": 49687,
+  "train_seconds": 63.9,
+  "config": {
+    "based_on": null,
+    "features": [
+      "base"
+    ],
+    "model": "rf",
+    "balance": "upsample",
+    "change": "baseline: paper features + RF + up-sampling to 20k"
+  }
+}

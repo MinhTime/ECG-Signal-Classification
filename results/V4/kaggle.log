@@ -1,0 +1,105 @@
+[{"stream_name":"stderr","time":10.197874153,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":10.197952547,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":12.05066455,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":12.050699986,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":12.050706215,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":12.050710567,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":13.003957788,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":13.003996768,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":13.004002757,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":13.004007137,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":20.045814651,"data":"Writing src/config.py\n"}
+,{"stream_name":"stdout","time":20.06420891,"data":"Writing src/dataset.py\n"}
+,{"stream_name":"stdout","time":20.081765516,"data":"Writing src/preprocess.py\n"}
+,{"stream_name":"stdout","time":20.100368404,"data":"Writing src/feature_extraction.py\n"}
+,{"stream_name":"stdout","time":20.118810033,"data":"Writing src/features.py\n"}
+,{"stream_name":"stdout","time":20.135297366,"data":"Writing src/models.py\n"}
+,{"stream_name":"stdout","time":20.153893881,"data":"Writing src/metrics.py\n"}
+,{"stream_name":"stdout","time":20.171169153,"data":"Writing src/run.py\n"}
+,{"stream_name":"stdout","time":46.857574263,"data":"2026-11-11 14:12:43,455 src.dataset: Loaded 109438 beats from 48 records\r\n"}
+,{"stream_name":"stdout","time":94.895050859,"data":"2026-11-11 14:13:31,470 src.feature_extraction: Extracted feature matrix of shape (109438, 190).\r\n"}
+,{"stream_name":"stdout","time":411.154540382,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\r\n"}
+,{"stream_name":"stdout","time":411.154584758,"data":"  warnings.warn(\r\n"}
+,{"stream_name":"stdout","time":413.881161527,"data":"V4 [random] balancing: random up-sampling -\u003e SMOTE\r\n"}
+,{"stream_name":"stdout","time":413.881198197,"data":"accuracy 0.9942 | macro-F1 0.9542 | macro-Se 0.9431 | macro-PPV 0.9667\r\n"}
+,{"stream_name":"stdout","time":413.881203899,"data":"\r\n"}
+,{"stream_name":"stdout","time":413.881207738,"data":"class       n      Se      Sp     PPV      F1\r\n"}
+,{"stream_name":"stdout","time":413.881219813,"data":"N       18117  0.9981  0.9828  0.9964  0.9972\r\n"}
+,{"stream_name":"stdout","time":413.881223489,"data":"SVEB      556  0.9514  0.9988  0.9532  0.9523\r\n"}
+,{"stream_name":"stdout","time":413.881226965,"data":"VEB      1447  0.9841  0.9989  0.9841  0.9841\r\n"}
+,{"stream_name":"stdout","time":413.881230495,"data":"FB        160  0.7875  0.9994  0.9000  0.8400\r\n"}
+,{"stream_name":"stdout","time":413.881234198,"data":"Q        1608  0.9944  1.0000  1.0000  0.9972\r\n"}
+,{"stream_name":"stdout","time":413.881257243,"data":"\r\n"}
+,{"stream_name":"stdout","time":413.881260169,"data":"confusion (rows=true, cols=pred): N SVEB VEB FB Q\r\n"}
+,{"stream_name":"stdout","time":413.881262905,"data":"N       18082     21      8      6      0\r\n"}
+,{"stream_name":"stdout","time":413.881265673,"data":"SVEB       23    529      4      0      0\r\n"}
+,{"stream_name":"stdout","time":413.881268336,"data":"VEB        10      5   1424      8      0\r\n"}
+,{"stream_name":"stdout","time":413.881270988,"data":"FB         24      0     10    126      0\r\n"}
+,{"stream_name":"stdout","time":413.881273683,"data":"Q           8      0      1      0   1599\r\n"}
+,{"stream_name":"stdout","time":413.881276466,"data":"\r\n"}
+,{"stream_name":"stdout","time":616.629958109,"data":"/usr/local/lib/python3.13/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names\r\n"}
+,{"stream_name":"stdout","time":616.629998342,"data":"  warnings.warn(\r\n"}
+,{"stream_name":"stdout","time":621.765785131,"data":"V4 [interpatient] balancing: random up-sampling -\u003e SMOTE\r\n"}
+,{"stream_name":"stdout","time":621.766025871,"data":"accuracy 0.9070 | macro-F1 0.4627 | macro-Se 0.4929 | macro-PPV 0.4643\r\n"}
+,{"stream_name":"stdout","time":621.766044107,"data":"\r\n"}
+,{"stream_name":"stdout","time":621.766049337,"data":"class       n      Se      Sp     PPV      F1\r\n"}
+,{"stream_name":"stdout","time":621.766054018,"data":"N       44235  0.9299  0.7590  0.9690  0.9491\r\n"}
+,{"stream_name":"stdout","time":621.766059095,"data":"SVEB     1837  0.4279  0.9911  0.6474  0.5152\r\n"}
+,{"stream_name":"stdout","time":621.766063656,"data":"VEB      3220  0.9596  0.9662  0.6631  0.7843\r\n"}
+,{"stream_name":"stdout","time":621.766068127,"data":"FB        388  0.1469  0.9735  0.0418  0.0650\r\n"}
+,{"stream_name":"stdout","time":621.766072551,"data":"Q           7  0.0000  1.0000  0.0000  0.0000\r\n"}
+,{"stream_name":"stdout","time":621.766076935,"data":"\r\n"}
+,{"stream_name":"stdout","time":621.766081556,"data":"confusion (rows=true, cols=pred): N SVEB VEB FB Q\r\n"}
+,{"stream_name":"stdout","time":621.766086012,"data":"N       41134    411   1438   1252      0\r\n"}
+,{"stream_name":"stdout","time":621.766090535,"data":"SVEB      945    786    106      0      0\r\n"}
+,{"stream_name":"stdout","time":621.766094934,"data":"VEB        58     16   3090     56      0\r\n"}
+,{"stream_name":"stdout","time":621.766099434,"data":"FB        307      1     23     57      0\r\n"}
+,{"stream_name":"stdout","time":621.766103936,"data":"Q           4      0      3      0      0\r\n"}
+,{"stream_name":"stdout","time":621.766108502,"data":"\r\n"}
+,{"stream_name":"stdout","time":621.816907174,"data":"version,split,accuracy,macro_f1,sveb_se,sveb_f1,veb_f1,fb_se,fb_f1\r\n"}
+,{"stream_name":"stdout","time":621.81694559,"data":"V4,random,0.9942,0.9542,0.9514,0.9523,0.9841,0.7875,0.8400\r\n"}
+,{"stream_name":"stdout","time":621.816952403,"data":"V4,interpatient,0.9070,0.4627,0.4279,0.5152,0.7843,0.1469,0.0650\r\n"}
+,{"stream_name":"stdout","time":621.816957714,"data":"\r\n"}
+,{"stream_name":"stdout","time":622.694069026,"data":"V4 [interpatient] balancing: random up-sampling -\u003e SMOTE\n"}
+,{"stream_name":"stdout","time":622.694107365,"data":"accuracy 0.9070 | macro-F1 0.4627 | macro-Se 0.4929 | macro-PPV 0.4643\n"}
+,{"stream_name":"stdout","time":622.694114393,"data":"\n"}
+,{"stream_name":"stdout","time":622.694121552,"data":"class       n      Se      Sp     PPV      F1\n"}
+,{"stream_name":"stdout","time":622.694145814,"data":"N       44235  0.9299  0.7590  0.9690  0.9491\n"}
+,{"stream_name":"stdout","time":622.694148791,"data":"SVEB     1837  0.4279  0.9911  0.6474  0.5152\n"}
+,{"stream_name":"stdout","time":622.694151463,"data":"VEB      3220  0.9596  0.9662  0.6631  0.7843\n"}
+,{"stream_name":"stdout","time":622.694154087,"data":"FB        388  0.1469  0.9735  0.0418  0.0650\n"}
+,{"stream_name":"stdout","time":622.694156752,"data":"Q           7  0.0000  1.0000  0.0000  0.0000\n"}
+,{"stream_name":"stdout","time":622.694159796,"data":"\n"}
+,{"stream_name":"stdout","time":622.694162429,"data":"confusion (rows=true, cols=pred): N SVEB VEB FB Q\n"}
+,{"stream_name":"stdout","time":622.69416505,"data":"N       41134    411   1438   1252      0\n"}
+,{"stream_name":"stdout","time":622.694167689,"data":"SVEB      945    786    106      0      0\n"}
+,{"stream_name":"stdout","time":622.694170312,"data":"VEB        58     16   3090     56      0\n"}
+,{"stream_name":"stdout","time":622.694172997,"data":"FB        307      1     23     57      0\n"}
+,{"stream_name":"stdout","time":622.694175624,"data":"Q           4      0      3      0      0\n"}
+,{"stream_name":"stdout","time":622.694178223,"data":"\n"}
+,{"stream_name":"stdout","time":622.694180701,"data":"V4 [random] balancing: random up-sampling -\u003e SMOTE\n"}
+,{"stream_name":"stdout","time":622.694183557,"data":"accuracy 0.9942 | macro-F1 0.9542 | macro-Se 0.9431 | macro-PPV 0.9667\n"}
+,{"stream_name":"stdout","time":622.694186295,"data":"\n"}
+,{"stream_name":"stdout","time":622.694188802,"data":"class       n      Se      Sp     PPV      F1\n"}
+,{"stream_name":"stdout","time":622.694191426,"data":"N       18117  0.9981  0.9828  0.9964  0.9972\n"}
+,{"stream_name":"stdout","time":622.694194169,"data":"SVEB      556  0.9514  0.9988  0.9532  0.9523\n"}
+,{"stream_name":"stdout","time":622.694196774,"data":"VEB      1447  0.9841  0.9989  0.9841  0.9841\n"}
+,{"stream_name":"stdout","time":622.694199372,"data":"FB        160  0.7875  0.9994  0.9000  0.8400\n"}
+,{"stream_name":"stdout","time":622.694201972,"data":"Q        1608  0.9944  1.0000  1.0000  0.9972\n"}
+,{"stream_name":"stdout","time":622.694204577,"data":"\n"}
+,{"stream_name":"stdout","time":622.694207067,"data":"confusion (rows=true, cols=pred): N SVEB VEB FB Q\n"}
+,{"stream_name":"stdout","time":622.694209817,"data":"N       18082     21      8      6      0\n"}
+,{"stream_name":"stdout","time":622.694212437,"data":"SVEB       23    529      4      0      0\n"}
+,{"stream_name":"stdout","time":622.69421502,"data":"VEB        10      5   1424      8      0\n"}
+,{"stream_name":"stdout","time":622.694217618,"data":"FB         24      0     10    126      0\n"}
+,{"stream_name":"stdout","time":622.694220274,"data":"Q           8      0      1      0   1599\n"}
+,{"stream_name":"stdout","time":622.694222892,"data":"\n"}
+,{"stream_name":"stderr","time":626.486468695,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":626.486512647,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":626.782893735,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":626.782929462,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":627.798437807,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":627.902567802,"data":"[NbConvertApp] Writing 45672 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":631.495299981,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":632.288449326,"data":"[NbConvertApp] Writing 411672 bytes to __results__.html\n"}
+]

@@ -1,0 +1,97 @@
+{
+  "accuracy": 0.9266206452391974,
+  "macro_f1": 0.36225961757651925,
+  "macro_sensitivity": 0.38186431185895386,
+  "macro_ppv": 0.3807792311349737,
+  "per_class": {
+    "N": {
+      "support": 44235,
+      "sensitivity": 0.9734147168531706,
+      "specificity": 0.5597945707997065,
+      "ppv": 0.9472051738929584,
+      "f1": 0.9601311124489931
+    },
+    "SVEB": {
+      "support": 1837,
+      "sensitivity": 0.02286336418072945,
+      "specificity": 0.9970532915360502,
+      "ppv": 0.22950819672131148,
+      "f1": 0.041584158415841586
+    },
+    "VEB": {
+      "support": 3220,
+      "sensitivity": 0.9130434782608695,
+      "specificity": 0.9762627240837584,
+      "ppv": 0.7271827850605985,
+      "f1": 0.8095828170177614
+    },
+    "FB": {
+      "support": 388,
+      "sensitivity": 0.0,
+      "specificity": 0.9999594312257856,
+      "ppv": 0.0,
+      "f1": 0.0
+    },
+    "Q": {
+      "support": 7,
+      "sensitivity": 0.0,
+      "specificity": 1.0,
+      "ppv": 0.0,
+      "f1": 0.0
+    }
+  },
+  "confusion": [
+    [
+      43059,
+      136,
+      1038,
+      2,
+      0
+    ],
+    [
+      1765,
+      42,
+      30,
+      0,
+      0
+    ],
+    [
+      275,
+      5,
+      2940,
+      0,
+      0
+    ],
+    [
+      354,
+      0,
+      34,
+      0,
+      0
+    ],
+    [
+      6,
+      0,
+      1,
+      0,
+      0
+    ]
+  ],
+  "version": "V2",
+  "split": "interpatient",
+  "n_features": 266,
+  "n_train": 125841,
+  "n_test": 49687,
+  "train_seconds": 121.2,
+  "config": {
+    "based_on": "V1",
+    "features": [
+      "base",
+      "rr",
+      "morph"
+    ],
+    "model": "rf",
+    "balance": "upsample",
+    "change": "+ time-domain morphology (beat waveform pooled to 72 points)"
+  }
+}
